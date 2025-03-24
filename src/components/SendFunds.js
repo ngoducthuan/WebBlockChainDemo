@@ -61,7 +61,7 @@ function SendFunds() {
                 </div>
 
                 {message && (
-                    <p className={`alert mt-3 ${message.startsWith("Gửi thành công") ? "alert-success" : "alert-danger"}`}>
+                    <p className={`alert mt-3 ${message.startsWith("Giao dịch thành công") ? "alert-success" : "alert-danger"}`}>
                         {message}
                     </p>
                 )}
